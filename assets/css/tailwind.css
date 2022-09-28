@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --bg-color-light: #FFFFFF;
+        --bg-color-dark: #2E3532;
+        --bg-color-accent: #ffd400;
+        --bg-color-alt-accent: #7FAFB2;
+        --text-color-light: #FFFFFF;
+        --text-color-dark: #2E3532;
+        --text-color-accent: #ffd400;
+        --text-color-alt-accent: #7FAFB2;
+    }
+}
