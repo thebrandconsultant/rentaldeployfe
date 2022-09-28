@@ -23,12 +23,12 @@
       <!-- Navbar -->
       <div class="hidden md:block">
         <ul class="flex space-x-8 text-md font-sans text-white">
-          <li><a class="text-white font-semibold" href="#">Home</a></li>
-          <li><a href="#" class="text-white font-semibold">Services</a></li>
-          <li><a href="#" class="text-white font-semibold">Features</a></li>
-          <li><a href="#" class="text-white font-semibold">FAQ</a></li>
-          <li><a href="#" class="text-white font-semibold">Contact</a></li>
-          <li><a href="#" class="cta bg-skin-accent hover:bg-gray-900 px-6 py-2 rounded text-black font-semibold">Sign Up</a></li>
+        <li><nuxt-link :to="'/'" class="text-white font-semibold">Home</nuxt-link></li>
+         <li><nuxt-link :to="'/about'" class="text-white font-semibold">About</nuxt-link></li>
+        <li><nuxt-link :to="'/#commercial'" class="text-white font-semibold">Commercial</nuxt-link></li>
+          <li><nuxt-link :to="'/apartments'" class="text-white font-semibold">Apartments</nuxt-link></li>
+          <li><nuxt-link :to="'/contact-us'" class="text-white font-semibold">Contact Us</nuxt-link></li>
+          <li><nuxt-link :to="'/apartments'" class="cta bg-skin-accent font-bold hover:bg-gray-900 px-6 py-2 rounded text-black">Find a Rental</nuxt-link></li>
         </ul>
       </div>
 

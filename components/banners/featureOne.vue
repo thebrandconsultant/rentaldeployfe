@@ -1,5 +1,5 @@
 <template>
-<section class="relative bg-white h-2/3">
+<section class="relative h-2/3">
   <img
     class="absolute inset-0 object-[75%] sm:object-[25%] object-cover w-full h-full opacity-100"
     src="/cover.jpg"
@@ -18,7 +18,7 @@ in the Southern Suburbs
        
       </h1>
       <div class="flex flex-wrap gap-4 mt-8 text-center">
-        <a class="block w-1/2 px-12 py-3 text-lg font-semibold text-black rounded shadow bg-skin-accent text-black sm:w-auto active:bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring" href="/get-started">
+        <a class="block w-1/2 px-12 py-3 text-lg font-semibold text-black rounded shadow bg-skin-accent  sm:w-auto active:bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring" href="/get-started">
           View Apartments
         </a>
       </div>
